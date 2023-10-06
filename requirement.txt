@@ -1,0 +1,12 @@
+Buat direktori proyek
+mkdir pytelegram 
+cd pytelegram 
+
+Buat lingkungan virtual Python (opsional, tetapi sangat direkomendasikan)
+python -m venv venv
+
+Aktifkan lingkungan virtual (Linux/macOS)
+source venv/bin/activate
+
+# Aktifkan lingkungan virtual (Windows)
+venv\Scripts\activate
