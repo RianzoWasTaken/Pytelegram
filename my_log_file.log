@@ -1,0 +1,11 @@
+import logging
+
+Konfigurasi logging (opsional)
+logging.basicConfig(level=logging.INFO, filename='my_log_file.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+Contoh penggunaan logging
+logging.debug('Ini adalah pesan debug')
+logging.info('Ini adalah pesan informasi')
+logging.warning('Ini adalah pesan peringatan')
+logging.error('Ini adalah pesan kesalahan')
+logging.critical('Ini adalah pesan kritis')
